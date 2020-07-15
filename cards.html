@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="wordsMain.css">
+  <script async src="cards.js"></script>
+  <script defer src="https://kit.fontawesome.com/6a3c487225.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Hongbin's Playground</h1>
+  </header>
+  <main>
+    <div id="cardWrapper">
+      <div class="leftBtn" onclick="preCard()">
+        &lt;
+      </div>
+      <div id="cardWord" onclick="flipCard()">
+        <div id="card_front">
+          단어
+        </div>
+        <div id="card_back">
+          <div id="word_def">뜻</div>
+          <div id="word_exp">설명</div>
+        </div>
+      </div>
+      <div class="rightBtn" onclick="nextCard()">
+        &gt;
+      </div>
+    </div>
+  </main>
+  <nav>
+    <div>관심분야</div>
+      <a href="wordsMain.html"><div class="navLink">이전 페이지</div></a>
+      <a href="index.html"><div class="navLink">메인으로 돌아가기</div></a>
+  </nav>
+  <footer>
+    <div id="copyright"><sapan>&copy; Redbin Lee</sapan></div>
+    <div>
+        <span class = "footer_logo"><a href="https://www.facebook.com/profile.php?id=100008562494600"><i class="fab fa-facebook-square fa-2x"></i></a><!-- sns logo 삽입 -->
+        <a href="www.linkedin.com/in/hongbin-lee"><i class="fab fa-linkedin fa-2x"></i></a></span>
+    </div>
+</footer>
+</body>
+</html>
