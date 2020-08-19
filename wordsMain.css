@@ -1,0 +1,40 @@
+#cardWrapper {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  min-height: max-content;
+  background-color: #d8e0bb;
+  box-shadow: 3px 3px 3px #888888;
+}
+#leftBtn {
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  transform: translateY(42%);
+}
+
+#rightBtn {
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  transform: translateY(42%);
+}
+
+#cardWord{
+  text-align: center;
+  vertical-align: middle;
+  background-color: darkgray;
+}
+#card_front{
+  font-size:  50px;
+  text-align: center;
+}
+#card_back{
+  font-size: 36px;
+  text-align: center;
+}
+#subButton_ul1{
+  display: none;
+}
+#subButton_ul2{
+  display: none;
+}
